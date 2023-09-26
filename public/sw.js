@@ -1,6 +1,8 @@
 const urlsToCache = [
-    "./**",
-    "./offline.html",
+    "./",
+    "./assets/**",
+    "./images/**",
+    "./vite.svg",
     "./manifest.json",
 ]
 
