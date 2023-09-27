@@ -3,6 +3,7 @@
   import viteLogo from '/vite.svg'
   import Counter from './lib/Counter.svelte'
   import { checkUpdate } from './lib/updater';
+  import OpenWebPage from './lib/OpenWebPage.svelte';
 
   checkUpdate()
 </script>
@@ -22,6 +23,7 @@
     <Counter />
   </div>
 
+  <OpenWebPage />
   <p>
     Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank" rel="noreferrer">SvelteKit</a>, the official Svelte app framework powered by Vite!
   </p>
